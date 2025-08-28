@@ -1,0 +1,18 @@
+用户数据文件夹路径：
+VSCode路径: C:\Users\用户名\AppData\Roaming\Code\User
+VSCode路径: C:\Users\用户名\AppData\Roaming\Cursor\User
+
+
+用户数据文件夹结构如下（Cursor同理）：
+User
+├── 📁 globalStorage       
+├── 📁 History                # 删除项目的历史记录
+├── 📁 snippets              
+├── 📁 workspaceStorage       # 删除这个工作区缓存
+├── 📄 keybindings.json       
+├── 📄 machineid              
+├── 📄 settings.json
+
+注意：
+1. 清除本地缓存只需要删除 History 和 workspaceStorage 文件夹
+2. 删除 globalStorage 文件夹会完全重置你的编辑器设置，谨慎操作！！！
